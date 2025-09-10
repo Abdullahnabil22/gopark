@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Inter";
+  src: url("/public/Inter/Inter-Medium.otf") format("truetype");
+}
+:root {
+  --green-primary: #57c039;
+  --green-secondary: #4bb42a;
+  --green-accent: #6cbc58;
+  --green-muted: #f3faf1cc;
+  --green-background: #fbfefa;
+  --green-foreground: #26401f;
+  --green-border: #e4f9df;
+  --green-ring: #57c039;
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@theme inline {
+  --color-primary: var(--green-primary);
+  --color-secondary: var(--green-secondary);
+  --color-accent: var(--green-accent);
+  --color-muted: var(--green-muted);
+  --color-background: var(--green-background);
+  --color-foreground: var(--green-foreground);
+  --color-border: var(--green-border);
+  --color-ring: var(--green-ring);
+}
