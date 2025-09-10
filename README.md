@@ -32,3 +32,5 @@ app.post(BASE + "/admin/users", (req, res) => {
   db.users.push(u);
   res.status(201).json(u);
 });
+
+added some reusable hooks and components to make it better scaling 
