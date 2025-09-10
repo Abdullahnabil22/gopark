@@ -11,6 +11,11 @@ npm install
 ```bash
 npm run dev
 ```
+- Run the test :
+```bash
+npm run test:run
+```
+
 added some backend endpoints to get users and post users 
 
 app.get(BASE + "/admin/users", (req, res) => {
